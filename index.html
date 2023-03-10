@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Box Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form id="search-form">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city"><br><br>
+        <input type="radio" id="hospital" name="type" value="hospital">
+        <label for="hospital">Hospital</label><br>
+        <input type="radio" id="school" name="type" value="school">
+        <label for="school">School</label><br>
+        <input type="radio" id="restaurant" name="type" value="restaurant">
+        <label for="restaurant">Restaurant</label><br><br>
+        <button type="submit">Search</button>
+    </form>
+    <div id="results"></div>
+</body>
+</html>
